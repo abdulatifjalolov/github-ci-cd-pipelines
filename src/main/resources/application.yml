@@ -1,0 +1,10 @@
+spring.datasource:
+  url: jdbc:postgresql://localhost:5432/mydatabase
+  username: myuser
+  password: mypassword
+spring.jpa:
+  hibernate.ddl-auto: create
+  defer-datasource-initialization: true
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
